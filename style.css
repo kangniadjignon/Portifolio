@@ -1,0 +1,32 @@
+
+/*QUANDO MEU CHECKBOX(INPUT) ESTIVER CLICADO, VAI ACONTECER O EVENTO NO PRIMERO FILHO DA LABEL*/
+#btn-mobile:checked + #label span:nth-child(1){
+
+    transform: rotate(-45deg); /* ao clicar vai rotacionar -45 graus*/
+    top: 8px;
+}
+
+/*QUANDO MEU CHECKBOX(INPUT) ESTIVER CLICADO, VAI ACONTECER O EVENTO NO SEGUNDO FILHO DA LABEL*/
+#btn-mobile:checked + #label span:nth-child(2){
+
+    opacity: 0; /* ao clicar o conteúdo do meio vai ter uma opacidade 0*/
+}
+
+/*QUANDO MEU CHECKBOX(INPUT) ESTIVER CLICADO, VAI ACONTECER O EVENTO NO TERCEIRO FILHO DA LABEL*/
+#btn-mobile:checked + #label span:nth-child(3){
+
+    transform: rotate(45deg); /* ao clicar vai rotacionar 45 graus*/
+    top: 8px;
+}
+
+@media (max-width: 575.99px) {
+    
+    /* LINHA - HEADER */
+    header #label{
+        display: block;
+    }
+    header #nav-principal ul li{
+        margin-bottom: 5px;
+    }
+
+}
