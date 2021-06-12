@@ -1,32 +1,92 @@
+  body{
+      background-color: indigo;
+    margin: 0%;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  #premier{
+    background-color: indigo;
+    font-size: 1.1em;
+    text-align: justify;
+    color: rgb(212, 212, 212);
+    margin: 0%;
+  }
+  span{
+    font-size: 200%;
+    text-shadow: 2px 3px 4px rgb(rgb(247, 245, 245), green, blue)
+  }
 
-/*QUANDO MEU CHECKBOX(INPUT) ESTIVER CLICADO, VAI ACONTECER O EVENTO NO PRIMERO FILHO DA LABEL*/
-#btn-mobile:checked + #label span:nth-child(1){
-
-    transform: rotate(-45deg); /* ao clicar vai rotacionar -45 graus*/
-    top: 8px;
+  footer{
+    background-color: #302f2f;
+    padding: 30px;
+    color: white;
+    text-align: center;
+  }
+#Topmenu{
+    display: flex;
+    background-color: #302f2f;
+    margin: 0%;
 }
-
-/*QUANDO MEU CHECKBOX(INPUT) ESTIVER CLICADO, VAI ACONTECER O EVENTO NO SEGUNDO FILHO DA LABEL*/
-#btn-mobile:checked + #label span:nth-child(2){
-
-    opacity: 0; /* ao clicar o conteúdo do meio vai ter uma opacidade 0*/
+#Topmenu li{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px; 
 }
-
-/*QUANDO MEU CHECKBOX(INPUT) ESTIVER CLICADO, VAI ACONTECER O EVENTO NO TERCEIRO FILHO DA LABEL*/
-#btn-mobile:checked + #label span:nth-child(3){
-
-    transform: rotate(45deg); /* ao clicar vai rotacionar 45 graus*/
-    top: 8px;
+#Topmenu li:first-child{
+  margin-right: auto;
 }
-
-@media (max-width: 575.99px) {
-    
-    /* LINHA - HEADER */
-    header #label{
-        display: block;
-    }
-    header #nav-principal ul li{
-        margin-bottom: 5px;
-    }
-
+.bob{
+  background-color: rgba(235, 94, 13, 0.918);
+  width: 30%;
+}
+.bob2{
+  background-color: rgba(235, 94, 13, 0.918);
+  width: 35%;
+}
+.bob3{
+  background-color: rgba(235, 94, 13, 0.918);
+  width: 40%;
+}
+.lol{
+  list-style: none;
+}
+.bien{
+  list-style: none;
+}
+.rien{
+  list-style: none;
+}
+.top1{
+  display: flex;
+  height: 33vh;
+  background-color: black;
+}
+.centre{
+  margin: auto;
+  text-align: center;
+}
+.top2{
+  background-image: url(https://images.pexels.com/photos/580679/pexels-photo-580679.jpeg?cs=srgb&dl=pexels-drew-rae-580679.jpg&fm=jpg);
+  display: flex;
+  background-color:indigo;
+  height: 33vh;
+}
+.top3{
+  display: flex;
+  background-color: black;
+  height: 33vh;
+}
+.rouge{
+  background-color: orange;
+  border-radius: 5px;
+  color:indigo;
+  padding: 10px;
+}
+.imageProjet{
+  width: 30vh;
+  height: 30vh;
+  padding-left: 15px;
+}
+body{
+    font-family: 'Fjalla One', sans-serif;
 }

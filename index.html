@@ -1,36 +1,99 @@
-<!-- 
-        MENU - HEADER
-    --------------------------------------------------------------------->
-    <header><!-- inicio Cabecalho -->
-        <nav class="navbar navbar-expand-sm navbar-light">
-          <div class="container">
-            
-            <a id="logo" href="#" class="navbar-brand">LOGO</a>
-            <!-- Botão responsivo do site -->
-            <input id="btn-mobile" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav-principal" type="checkbox">
-            <label id="label" for="btn-mobile">
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
-  
-            <div class="collapse navbar-collapse" id="nav-principal">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="#" id="scroll-home" class="nav-link btn btn-outline-info">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" id="scroll-planos" class="nav-link btn btn-outline-info">Planos</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" id="scroll-espaco" class="nav-link btn btn-outline-info">Espaço</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" id="scroll-contato" class="nav-link btn btn-outline-info">Contato</a>
-                </li>
-              </ul>
-            </div>
-  
-          </div>
-        </nav>
-      </header><!--/fim Cabecalho -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!--bootsrap-->
+</head>
+<style>
+html{
+  scroll-behavior: smooth;
+}
+</style>
+<body>
+  <nav>
+    <ul id="Topmenu">
+      <li><img border-radius: 50px height="55px" width="100px" src="imagem/logo.png" alt=""></li>
+      <li>Home</li>
+      <li>Contato</li>
+      <li>Sobre</li>
+    </ul>
+  </nav>
+  <div class="top1">
+    <div class="centre">
+        <h1 style="color: orange;"><strong>KANGNI ADJIGNON</strong></h1>
+        <a href="#projet">
+          <button class="rouge"><strong>Meus Projetos</strong></button>
+        </a>
+    </div>
+  </div>
+  <p id="premier"><span>Olá</span>, me chamo <span>Kangni</span> <span>Adjignon</span>, tenho 32 anos. Vou falar um pouco sobre mim até chegar onde estou hoje beleza?
+    Graduado em economia e comercio internacional, porem apaixonado pela área de tecnologia!
+    Atualmente estudante iniciante de programação; desde pequeno sempre gostei de aprender sobre o mundo da tecnologia e me lembro que na época se não tinha ninguém para me ensinar o básico, aprendia sozinho mesmo com um desktop que eu tinha, lembrando que as dificuldades eram visíveis, sendo que não tinha internet para pesquisas e ficava sem a eletricidade a maior parte do dia. Apesar dessas dificuldades todas, aqui estou hoje exigindo um trabalho duro e dedicação de mim, porem depois que aprender nunca mais se esquece.
+    Acredito eu que quando se busca conhecimento por si mesmo no nosso sistema de educação defasado sempre seremos vencedores. Hoje estou aqui cada vez me dedicando e focado para que tudo venha dar certo e eu venha concluir meus sonhos junto com essa área que eu amo tanto.
+  </p>
+  <div id="projet" class="top2 centre">
+    <table class="centre">
+      <tr>
+        <td width="40%"><img class="imageProjet" src="imagem/netflix.png"/></td>
+        <td width="60%">
+          <ul class="bien" style="color:rgb(224, 216, 216);">
+            <p class="bob"><strong>Projeto1</strong></p>
+            <hr>
+            <li>NETFLIX-COPIA em construção... </li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="projet" class="top3 centre">
+    <table class="centre">
+      <tr>
+        <td width="50%">
+          <ul class="lol" style="color:rgb(224, 216, 216)">
+            <p class="bob2"><strong>Projeto2</strong></p>
+            <hr>
+            <li>COPIA-SPOTIFY em construção...</li>
+          </ul>
+        </td>
+        <td width="40%"><img class="imageProjet" src="imagem/spotify.png"/> </td>
+      </tr>
+    </table>
+  </div>
+  <div id="projet" class="top2 centre">
+    <table class="centre">
+      <tr>
+        <td width="40%"><img class="imageProjet" src="imagem/PLAGE2.jpeg"/> </td>
+        <td width="50%">
+          <ul class="rien" style="color: rgb(224, 216, 216)">
+            <p class="bob3"><strong>Projeto3</strong></p>
+            <hr>
+            <li>May the light be with us</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <footer>
+    <h6>Todos o direitos reservados - © 2021 - Kangni Adjignon --Em construção!--</h6>
+    <div>
+      <img width="30px" height="30px" src="imagem/globo.jpg">
+      <select>
+        <option>Português</option>
+        <option>English</option>
+      </select>
+    </div>
+  </footer>
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  <!--bootsrap-->
+</body>
+</html>
